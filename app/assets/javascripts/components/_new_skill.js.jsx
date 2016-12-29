@@ -2,7 +2,9 @@ var NewSkill = React.createClass({
   render() {
     return(
       <div>
-        <h3>New Skill</h3>
+        <input ref='name' placeholder='Enter name of skill' />
+        <input ref='details' placeholder='Details' />
+        <button>Submit</button>
       </div>
     )
   }
